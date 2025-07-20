@@ -21,8 +21,20 @@ This project implements an autonomous team of AI agents that can research any gi
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/multi-agent-research.git
 cd multi-agent-research
+
+
+### 2. Install Required Packages
+
+Make sure you have Python 3.9+, then install dependencies:
+pip install -r requirements.txt
+
+
+### 3. Set API Keys
+Add your API keys in .env file:
+
+GROQ_API_KEY=your-groq-api-key
+SERPER_API_KEY=your-serper-api-key
 
 

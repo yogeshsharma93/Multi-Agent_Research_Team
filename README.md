@@ -41,5 +41,30 @@ GROQ_API_KEY=your-groq-api-key
 SERPER_API_KEY=your-serper-api-key
 ```
 
+---
+
+## ▶️ How to Run
+Run via Streamlit (Recommended)
+
+```bash
+streamlit run app.py
+```
+
+- Enter your research topic in the input field.
+- Click "Generate Report".
+
+The final report will be:
+- Displayed in the browser
+- Saved to outputs/final_report.md
+  
+---
+
+## 📚 Tech Stack
+
+- **LangGraph** – multi-agent orchestration
+- **LangChain** – agent and memory logic
+- **GROQ (LLaMA3)** – LLM used for all agent responses
+- **Serper.dev** – Google search API integration
+- **Streamlit** – frontend for user interaction
 
 

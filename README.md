@@ -21,8 +21,8 @@ This project implements an autonomous team of AI agents that can research any gi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/multi-agent-research.git
-cd multi-agent-research
+git clone https://github.com/yogeshsharma93/Multi-Agent_Research_Team.git
+cd Multi-Agent_Research_Team
 ```
 
 ### 2. Install Required Packages
